@@ -1,0 +1,72 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Iphone 11 128 GB",
+      "description": "Grave vídeos 4K, faça belos retratos e capture paisagens inteiras com o novo sistema de câmera dupla.",
+      "photo": "https://mks-sistemas.nyc3.digitaloceanspaces.com/products/iphone11x128.webp",
+      "price": 124.99
+    },
+    {
+      "id": 2,
+      "name": "AirPods",
+      "description": "Criados pela Apple Ligam e se conectam automaticamente Configuração com apenas um toque para todos seus aparelhos Apple.",
+      "photo": "https://mks-sistemas.nyc3.digitaloceanspaces.com/products/airpods.webp",
+      "price": 243.99
+    },
+    {
+      "id": 3,
+      "name": "Apple iPhoneX 128GB",
+      "description": "Redesigned from scratch and completely revised.",
+      "photo": "https://mks-sistemas.nyc3.digitaloceanspaces.com/products/iphone11x128.webp",
+      "price": 434.99
+    },
+    {
+      "id": 4,
+      "name": "iPad",
+      "description": "iPad é uma linha de tablets projetada, desenvolvida e comercializada pela Apple, que funciona com o sistema operacional móvel iOS e iPadOS.",
+      "photo": "https://mks-sistemas.nyc3.digitaloceanspaces.com/products/ipadair.webp",
+      "price": 3022.99
+    },
+    {
+      "id": 5,
+      "name": "Headset Cloud Revolver",
+      "description": "A linha HyperX Cloud Revolver foi projetada para atender as exigências dos gamers de PC ou de console.",
+      "photo": "https://mks-sistemas.nyc3.digitaloceanspaces.com/products/hyperx-cloudrevolver.webp",
+      "price": 565.99
+    },
+    {
+      "id": 6,
+      "name": "Headset Cloud Stinger",
+      "description": "O HyperX Cloud Stinger™ é o headset ideal para jogadores que procuram leveza e conforto, qualidade de som superior e maior praticidade.",
+      "photo": "https://mks-sistemas.nyc3.digitaloceanspaces.com/products/hyperxcloudstinger.webp",
+      "price": 326.99
+    }
+  ],
+  "stock": [
+    {
+      "id": 1,
+      "quantity": 2
+    },
+    {
+      "id": 2,
+      "quantity": 8
+    },
+    {
+      "id": 3,
+      "quantity": 6
+    },
+    {
+      "id": 4,
+      "quantity": 4
+    },
+    {
+      "id": 5,
+      "quantity": 3
+    },
+    {
+      "id": 6,
+      "quantity": 1
+    }
+  ]
+}

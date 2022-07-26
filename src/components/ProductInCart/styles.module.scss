@@ -1,0 +1,107 @@
+@keyframes animationTransform {
+  from {
+    transform: translateX(400px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.container {
+  width: 180px;
+
+  animation: animationTransform 0.2s backwards;
+
+  background: #ffffff;
+  box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  position: relative;
+
+  .image {
+    position: relative;
+
+    margin: 0 auto;
+    margin-top: 1rem;
+
+    width: 70px;
+    height: 70px;
+  }
+
+  .removeProduct {
+    width: 20px;
+    height: 20px;
+
+    position: absolute;
+    top: -5px;
+    right: -5px;
+
+    background: rgb(215, 47, 47);
+    color: #fff;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+      font-size: 1rem;
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2 {
+      font-size: 1rem;
+      font-weight: 400;
+    }
+
+    .containerButtons {
+      margin: 1rem 0;
+
+      height: 2rem;
+      width: 100px;
+
+      background: #ffffff;
+      border: 0.3px solid rgba(191, 191, 191, 0.4);
+      border-radius: 4px;
+
+      display: flex;
+      align-items: center;
+
+      span {
+        flex: 1;
+        text-align: center;
+      }
+
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding: 0.2rem;
+
+        flex: 1;
+        background: none;
+
+        &:first-of-type {
+          border-right: 1px solid rgba(191, 191, 191, 0.4);
+        }
+
+        &:last-of-type {
+          border-left: 1px solid rgba(191, 191, 191, 0.4);
+        }
+      }
+    }
+  }
+}

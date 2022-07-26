@@ -1,0 +1,79 @@
+.header {
+  background: #1d1e24;
+
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.content {
+  max-width: 1300px;
+  margin: 0 auto;
+  height: 4rem;
+  padding: 0 1rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  a {
+    color: #fff;
+
+    font-family: "Poppins";
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+
+  .containerCart {
+    position: relative;
+    display: flex;
+
+    &.itemsInCart {
+      width: 50px;
+    }
+
+    .cart {
+      background: none;
+
+      svg {
+        font-size: 1.75rem;
+        color: #fff;
+      }
+    }
+
+    .itemsAmount {
+      display: block;
+      background: rgb(234, 24, 24);
+      border-radius: 50%;
+
+      width: 20px;
+      height: 20px;
+
+      color: #fff;
+      font-weight: bold;
+
+      font-size: 0.85rem;
+      text-align: center;
+      line-height: 20px;
+
+      position: absolute;
+      right: 7px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    & {
+      padding: 0 1.2rem;
+    }
+
+    a {
+      font-size: 1rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    a {
+      font-size: 1.5rem;
+    }
+  }
+}
