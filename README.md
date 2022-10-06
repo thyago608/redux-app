@@ -1,6 +1,6 @@
 ## Sobre
 
-O projeto **Redux-app** é um projeto de teste para a prática de novos conceitos da biblioteca Redux Toolkit.
+O projeto **Redux App** é um projeto de teste para a prática de novos conceitos da biblioteca Redux Toolkit.
 
 ---
 
